@@ -14,6 +14,10 @@ namespace TODOAPP.ViewModel
 {
     public class TasksViewModel : INotifyPropertyChanged
     {
+
+        /// <summary>
+        /// WILL ADD DESCRIPTION
+        /// </summary>
         private ObservableCollection<TaskModel> _tasks;
         public ObservableCollection<TaskModel> Tasks
         {
